@@ -36,10 +36,10 @@ public class IniciarSesionFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
 
-        usuarioEditText= view.findViewById(R.id.edit_Text_Usuario);
+        usuarioEditText= view.findViewById(R.id.edit_Text_usuario);
         contrasenyaEditText = view.findViewById(R.id.edit_Text_contraseña);
         iniciarSesionButton = view.findViewById(R.id.boton_iniciar_sesion);
-        botonRegistro = view.findViewById(R.id.registrarse);
+        botonRegistro = view.findViewById(R.id.boton_registrarse);
 
         botonRegistro.setOnClickListener(new View.OnClickListener() {
             @Override
